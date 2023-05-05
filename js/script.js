@@ -52,3 +52,26 @@ window.onscroll = () => {
     this.innerHeight + this.scrollY >= document.scrollingElement.scrollHeight
   );
 };
+
+// enviar correo
+
+const btn = document.getElementById("button");
+
+document.getElementById("form").addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  btn.innerText = "Enviando...";
+
+  const serviceID = "default_service";
+  const templateID = "template_ikbhsmx";
+
+  emailjs.sendForm(serviceID, templateID, this).then(
+    () => {
+      btn.innerText = "Enviar";
+    },
+    (err) => {
+      btn.innerText = "Enviar";
+      console.log(JSON.stringify(err));
+    }
+  );
+});

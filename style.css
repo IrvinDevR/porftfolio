@@ -81,12 +81,12 @@ body {
   display: none;
 }
 
-/* Home Section */
-
 section {
   min-height: 100vh;
   padding: 10rem 9% 2rem;
 }
+
+/* Home Section */
 
 .home {
   display: flex;
@@ -153,11 +153,8 @@ section {
 }
 
 .btn-box {
-  position: relative;
   display: flex;
-  justify-content: space-between;
-  width: 34.5rem;
-  height: 5rem;
+  gap: 2rem;
 }
 
 .btn-box .btn {
@@ -165,7 +162,6 @@ section {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 15rem;
   height: 100%;
   background: var(--main-color);
   border: .2rem solid var(--main-color);
@@ -177,6 +173,7 @@ section {
   z-index: 0;
   overflow: hidden;
   transition: .5s;
+  padding: .8rem 1.5rem;
 }
 
 .btn-box .btn:hover {
@@ -217,7 +214,7 @@ section {
   bottom: 4rem;
   width: 170px;
   display: flex;
-  justify-content: space-between;
+  gap: 1rem;
 }
 
 .home-sci a {
@@ -338,7 +335,7 @@ span {
 
 .about-content p {
   position: relative;
-  max-width: 850px;
+  max-width: 800px;
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
 }
@@ -367,7 +364,7 @@ span {
   display: flex;
   flex-wrap: wrap;
   gap: 5rem;
-  max-width: 1200px;
+  max-width: 800px;
 }
 
 .education-row .education-column {
@@ -457,7 +454,7 @@ span {
   z-index: 0;
   border-radius: .6rem;
   width: 90%;
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 3rem 1.5rem;
   background: var(--bg-color);
@@ -800,6 +797,10 @@ section:nth-child(odd) .animate.scroll,
 
   .education {
     padding: 10rem 4% 5rem 5%;
+  }
+
+  .skills-content {
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
   }
 
   .contact form .input-box .input-field {

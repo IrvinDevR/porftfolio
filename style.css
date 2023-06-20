@@ -303,8 +303,8 @@ span {
 }
 
 .about-img img {
-  width: 90%;
-  border-radius: 50%;
+  aspect-ratio: attr(width) / attr(height);
+  border-radius: 999px;
   border: .2rem solid var(--main-color);
 }
 

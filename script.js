@@ -56,7 +56,7 @@ form.addEventListener("submit", function (event) {
       }, 1000);
       setTimeout(() => {
         btn.innerText = "Enviar";
-      }, 2000);
+      }, 1001);
       form.reset();
     },
     (err) => {

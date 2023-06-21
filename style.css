@@ -16,7 +16,7 @@
   --bg-color: #071d2f;
   --second-bg-color: #112e42;
   --text-color: #ededed;
-  --main-color: #00abf0;
+  --main-color: #3dc8ff;
 }
 
 
@@ -65,7 +65,7 @@ body {
   color: var(--text-color);
   font-weight: 500;
   margin-left: 3.5rem;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .navbar a.active,
@@ -104,6 +104,14 @@ section {
   z-index: 0;
 }
 
+.home-content p {
+  font-size: 3.8em;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  color: var(--text-color);
+  line-height: 1.5;
+}
+
 .home-content h1 {
   font-size: 5.6rem;
   font-weight: 700;
@@ -121,7 +129,7 @@ section {
 
 .home-content .text-animate h3 {
   font-size: 3.2rem;
-  font-weight: 700;
+  font-weight: 600;
   color: transparent;
   -webkit-text-stroke: 1.15px var(--main-color);
   background-image: linear-gradient(45deg, var(--main-color), var(--main-color));
@@ -641,28 +649,12 @@ input[type=number]::-webkit-outer-spin-button {
 
 /* ANIMATION RELOAD AND SCROLL */
 
-.animate {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background: var(--bg-color);
-  z-index: 98;
-}
-
 .logo .animate,
 .navbar .animate,
 #menu-icon .animate,
 .home.show-animate .animate {
   animation: showRight 1s ease forwards;
   animation-delay: calc(.3s * var(--i));
-}
-
-.animate.scroll {
-  transition: 1s ease;
-  transition-delay: calc(.3s / var(--i));
-  animation: none;
 }
 
 section:nth-child(odd) .animate.scroll,
@@ -718,8 +710,7 @@ section:nth-child(odd) .animate.scroll,
     left: -100%;
     width: 100%;
     padding: 1rem 4%;
-    background: var(--main-color);
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+    background: transparent;
     z-index: 1;
     transition: .25s ease;
     transition-delay: .25s;
@@ -737,15 +728,16 @@ section:nth-child(odd) .animate.scroll,
     width: 100%;
     height: 100%;
     background: var(--bg-color);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
     border-top: .1rem solid rgba(0, 0, 0, .2);
     z-index: -1;
-    transition: .25s ease;
+    transition: .2s ease;
     transition-delay: 0s;
   }
 
   .navbar.active .active-nav {
     left: 0;
-    transition-delay: .25s;
+    transition-delay: .2s;
   }
 
   .navbar a {
@@ -753,13 +745,13 @@ section:nth-child(odd) .animate.scroll,
     font-size: 2rem;
     margin: 3rem 0;
     transform: translateX(-20rem);
-    transition: .25s ease;
+    transition: .2s ease;
     transition-delay: 0s;
   }
 
   .navbar.active a {
     transform: translateX(0);
-    transition-delay: .25s;
+    transition-delay: .2s;
   }
 
   .home-imgHover {

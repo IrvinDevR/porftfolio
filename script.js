@@ -39,8 +39,9 @@ window.onscroll = () => {
 
 // enviar correo
 const btn = document.getElementById("button");
+const form = document.getElementById("form");
 
-document.getElementById("form").addEventListener("submit", function (event) {
+form.addEventListener("submit", function (event) {
   event.preventDefault();
 
   btn.innerText = "Enviando...";
@@ -50,7 +51,13 @@ document.getElementById("form").addEventListener("submit", function (event) {
 
   emailjs.sendForm(serviceID, templateID, this).then(
     () => {
-      btn.innerText = "Enviar";
+      setTimeout(() => {
+        btn.innerText = "Enviado ✔";
+      }, 1000);
+      setTimeout(() => {
+        btn.innerText = "Enviar";
+      }, 2000);
+      form.reset();
     },
     (err) => {
       btn.innerText = "Enviar";

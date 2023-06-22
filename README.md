@@ -5,7 +5,7 @@ Este es mi portafolio personal, desarrollado utilizando HTML5, CSS3 y JavaScript
 ## Características
 
 - Diseño moderno y atractivo.
-- Páginas principales: Inicio, Proyectos, Acerca de mí y Contacto.
+- Secciones principales: Inicio, Proyectos, Sobre mi, Educación, Skills y Contacto.
 - Sección de proyectos con descripciones y enlaces.
 - Información detallada sobre mi experiencia y habilidades.
 - Formulario de contacto con integración de EmailJS para enviar mensajes.
@@ -27,16 +27,55 @@ Este es mi portafolio personal, desarrollado utilizando HTML5, CSS3 y JavaScript
 Si deseas utilizar el formulario de contacto y recibir mensajes en tu propio correo electrónico, debes seguir los siguientes pasos:
 
 1. Crea una cuenta en [EmailJS](https://www.emailjs.com/) si aún no tienes una.
-2. Obtén tus credenciales de EmailJS (User ID, Template ID y Service ID).
-3. Abre el archivo `script.js` en un editor de texto.
-4. Reemplaza los valores de las variables `emailjsUserId`, `emailjsTemplateId` y `emailjsServiceId` con tus propias credenciales de EmailJS.
 
-```javascript
-  // EmailJS configuration
-  const emailjsUserId = 'TU_USER_ID';
-  const emailjsTemplateId = 'TU_TEMPLATE_ID';
-  const emailjsServiceId = 'TU_SERVICE_ID';
-```
+    ```javascript
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+      <script type="text/javascript">
+        emailjs.init('YOUR_PUBLIC_KEY')
+      </script>
+    ```
+
+2. Agregar un servicio de correo electrónico
+    ![Ejemplo 1](https://i.postimg.cc/kM2yhtw7/image.png)
+
+3. Crear una plantilla de correo electrónico
+    ![Ejemplo 2](https://i.postimg.cc/SKcB9v2t/image.png)
+    ![Ejemplo 3](https://i.postimg.cc/7PpYSpfq/image.png)
+
+4. Crear un formulario HTML
+
+    ```html
+     <form id="contact-form">
+         <input type="hidden" name="contact_number">
+         <label>Name</label>
+         <input type="text" name="user_name">
+         <label>Email</label>
+         <input type="email" name="user_email">
+         <label>Message</label>
+         <textarea name="message"></textarea>
+         <input type="submit" value="Send">
+     </form>
+    ```
+
+5. Abre el archivo `script.js` en un editor de texto.
+
+    ```javascript
+      // EmailJS configuration
+      window.onload = function() {
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+          e.preventDefault();
+          // generate a five digit number for the contact_number variable
+          this.contact_number.value = Math.random() * 100000 | 0;
+          // these IDs from the previous steps
+          emailjs.sendForm('contact_service', 'contact_form', this)
+            .then(function() {
+                console.log('SUCCESS!');
+            }, function(error) {
+                console.log('FAILED...', error);
+            });
+        });
+      }
+    ```
 
 ## Contribución
 
@@ -51,7 +90,3 @@ Si deseas contribuir a este proyecto, puedes hacerlo siguiendo estos pasos:
 ## Soporte
 
 Si encuentras algún problema o tienes alguna pregunta, no dudes en [crear un issue](https://github.com/rubenmantilladev/portfolio/issues) en este repositorio.
-
-## Licencia
-
-Este proyecto está bajo la Licencia [MIT](LICENSE).

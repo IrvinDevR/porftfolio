@@ -1,32 +1,32 @@
-# Portafolio Personal
+# Personal Portfolio
 
-Este es mi portafolio personal, desarrollado utilizando HTML5, CSS3 y JavaScript. También he utilizado la librería EmailJS para implementar el formulario de contacto.
+This is my personal portfolio, developed using HTML5, CSS3, and JavaScript. I have also used the EmailJS library to implement the contact form.
 
 ## Características
 
-- Diseño moderno y atractivo.
-- Secciones principales: Inicio, Proyectos, Sobre mi, Educación, Skills y Contacto.
-- Sección de proyectos con descripciones y enlaces.
-- Información detallada sobre mi experiencia y habilidades.
-- Formulario de contacto con integración de EmailJS para enviar mensajes.
+- Modern and appealing design.
+- Main sections: Home, Projects, About Me, Education, Skills, and Contact.
+- Projects section with descriptions and links.
+- Detailed information about my experience and skills.
+- Contact form with EmailJS integration for sending messages.
 
-## Tecnologías utilizadas
+## Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
 - EmailJS
 
-## Uso
+## Usage
 
-1. Clona o descarga el repositorio en tu máquina local.
-2. Abre el archivo `index.html` en tu navegador web.
+1. Clone or download the repository to your local machine.
+2. Open the index.html file in your web browser.
 
-## Configuración de EmailJS
+## EmailJS Configuration
 
-Si deseas utilizar el formulario de contacto y recibir mensajes en tu propio correo electrónico, debes seguir los siguientes pasos:
+If you want to use the contact form and receive messages in your own email, follow these steps:
 
-1. Crea una cuenta en [EmailJS](https://www.emailjs.com/) si aún no tienes una.
+1. Create an account on [EmailJS](https://www.emailjs.com/) if you don't have one.
 
     ```javascript
       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
@@ -35,14 +35,14 @@ Si deseas utilizar el formulario de contacto y recibir mensajes en tu propio cor
       </script>
     ```
 
-2. Agregar un servicio de correo electrónico
+2. Add an email service
     ![Ejemplo 1](https://i.postimg.cc/kM2yhtw7/image.png)
 
-3. Crear una plantilla de correo electrónico
+3. Create an email template
     ![Ejemplo 2](https://i.postimg.cc/SKcB9v2t/image.png)
     ![Ejemplo 3](https://i.postimg.cc/7PpYSpfq/image.png)
 
-4. Crear un formulario HTML
+4. Create an HTML form
 
     ```html
      <form id="contact-form">
@@ -57,7 +57,7 @@ Si deseas utilizar el formulario de contacto y recibir mensajes en tu propio cor
      </form>
     ```
 
-5. Abre el archivo `script.js` en un editor de texto.
+5. Open the script.js file in a text editor.
 
     ```javascript
       // EmailJS configuration
@@ -77,16 +77,16 @@ Si deseas utilizar el formulario de contacto y recibir mensajes en tu propio cor
       }
     ```
 
-## Contribución
+## Contributionn
 
-Si deseas contribuir a este proyecto, puedes hacerlo siguiendo estos pasos:
+If you want to contribute to this project, you can do so by following these steps:
 
-1. Haz un fork de este repositorio.
-2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
-3. Realiza los cambios deseados y realiza commits (`git commit -am 'Agrega una nueva funcionalidad'`).
-4. Sube los cambios a tu repositorio remoto (`git push origin feature/nueva-funcionalidad`).
-5. Abre una Pull Request en este repositorio.
+1. Fork this repository.
+2. Create a new branch (`git checkout -b feature/nueva-funcionalidad`).
+3. Make the desired changes and commit them (`git commit -am 'Agrega una nueva funcionalidad'`).
+4. Push the changes to your remote repository (`git push origin feature/nueva-funcionalidad`).
+5. Open a Pull Request in this repository.
 
-## Soporte
+## Support
 
-Si encuentras algún problema o tienes alguna pregunta, no dudes en [crear un issue](https://github.com/rubenmantilladev/portfolio/issues) en este repositorio.
+If you encounter any issues or have any questions, feel free to [create an issue](https://github.com/rubenmantilladev/portfolio/issues) in this repository.

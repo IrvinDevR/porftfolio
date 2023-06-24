@@ -38,11 +38,11 @@ If you want to use the contact form and receive messages in your own email, foll
 2. Add an email service
     ![Ejemplo 1](https://i.postimg.cc/kM2yhtw7/image.png)
 
-3. Create an email template
+4. Create an email template
     ![Ejemplo 2](https://i.postimg.cc/SKcB9v2t/image.png)
     ![Ejemplo 3](https://i.postimg.cc/7PpYSpfq/image.png)
 
-4. Create an HTML form
+5. Create an HTML form
 
     ```html
      <form id="contact-form">
@@ -57,7 +57,7 @@ If you want to use the contact form and receive messages in your own email, foll
      </form>
     ```
 
-5. Open the script.js file in a text editor.
+6. Open the script.js file in a text editor.
 
     ```javascript
       // EmailJS configuration

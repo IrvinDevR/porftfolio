@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-
 * {
   margin: 0;
   padding: 0;
@@ -83,7 +81,7 @@ body {
 
 section {
   min-height: 100vh;
-  padding: 10rem 9% 2rem;
+  padding: 10rem 0 2rem;
 }
 
 /* Home Section */
@@ -127,7 +125,7 @@ section {
   width: 32.8rem;
 }
 
-.home-content .text-animate h3 {
+.home-content .text-animate h2 {
   font-size: 3.2rem;
   font-weight: 600;
   color: transparent;
@@ -141,7 +139,7 @@ section {
   animation-delay: 2s;
 }
 
-.home-content .text-animate h3::before {
+.home-content .text-animate h2::before {
   content: '';
   position: absolute;
   top: 0;
@@ -361,30 +359,22 @@ span {
 
 .education {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   min-height: auto;
   padding-bottom: 5rem;
-}
-
-.education .education-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5rem;
+  width: 100%;
   max-width: 800px;
+  margin: 0 auto;
 }
 
-.education-row .education-column {
-  flex: 1 1 40rem;
-}
-
-.education-column .title {
+.title {
   font-size: 2.5rem;
   margin: 0 0 1.5rem 2rem;
 }
 
-.education-column .education-box {
+.education-box {
   border-left: .2rem solid var(--main-color);
 }
 
@@ -457,7 +447,7 @@ span {
 
 .skills-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(90px, 100%), 1fr));
   gap: 1rem;
   z-index: 0;
   border-radius: .6rem;
@@ -469,7 +459,6 @@ span {
   border: .2rem solid var(--main-color);
 }
 
-
 .skills-content .skill_item {
   display: flex;
   flex-direction: column;
@@ -478,12 +467,9 @@ span {
   justify-content: center;
   border-radius: .6rem;
   padding: 1rem;
-  transition: .5s;
-  width: 90px;
-  height: 90px;
 }
 
-.skills-content .skill_item  img {
+.skills-content .skill_item img {
   width: 4.5rem;
   height: 4.5rem;
 }
@@ -494,9 +480,6 @@ span {
   margin-top: 1rem;
 }
 
-
-
-
 /* Contact */
 
 .contact {
@@ -505,9 +488,15 @@ span {
 }
 
 .contact form {
-  max-width: 70rem;
+  max-width: 800px;
   margin: 0 auto;
   text-align: center;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
 }
 
 .contact form .input-box {
@@ -693,6 +682,17 @@ section:nth-child(odd) .animate.scroll,
   .footer {
     padding: 2rem 4%;
   }
+
+  .about .about-content {
+    padding: 0 4%;
+    width: 100%;
+  }
+
+  .contact {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -779,6 +779,11 @@ section:nth-child(odd) .animate.scroll,
   .home-sci a {
     width: 38px;
     height: 38px;
+  }
+
+  .skill_item img {
+    width: 30px;
+    height: 30px;
   }
 }
 
@@ -874,7 +879,6 @@ section:nth-child(odd) .animate.scroll,
     opacity: 0;
   }
 }
-
 
 @keyframes aboutSpinner {
   100% {

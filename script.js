@@ -41,27 +41,31 @@ window.onscroll = () => {
 const btn = document.getElementById("button");
 const form = document.getElementById("form");
 
-form.addEventListener("submit", function (event) {
-  event.preventDefault();
+window.onload = function () {
+  emailjs.init("wnBpZLdftA09_3-7A");
 
-  btn.innerText = "Enviando...";
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
 
-  const serviceID = "default_service";
-  const templateID = "template_ikbhsmx";
+    btn.innerText = "Enviando...";
 
-  emailjs.sendForm(serviceID, templateID, this).then(
-    () => {
-      setTimeout(() => {
-        btn.innerText = "Enviado ✔";
-      }, 1000);
-      setTimeout(() => {
+    const serviceID = "default_service";
+    const templateID = "template_ikbhsmx";
+
+    emailjs.sendForm(serviceID, templateID, this).then(
+      () => {
+        setTimeout(() => {
+          btn.innerText = "Enviado ✔";
+        }, 1000);
+        setTimeout(() => {
+          btn.innerText = "Enviar";
+        }, 1001);
+        form.reset();
+      },
+      (err) => {
         btn.innerText = "Enviar";
-      }, 1001);
-      form.reset();
-    },
-    (err) => {
-      btn.innerText = "Enviar";
-      console.log(JSON.stringify(err));
-    }
-  );
-});
+        console.log(JSON.stringify(err));
+      }
+    );
+  });
+};

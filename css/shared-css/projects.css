@@ -1,0 +1,73 @@
+@import url(/css/style.css);
+
+.proyects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+  max-width: 800px;
+  gap: 20px;
+}
+
+.proyect__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 250px;
+  min-width: 250px;
+  height: 300px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+
+  --main-color-hover: #fff;
+}
+
+.proyect__item__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  height: 100%;
+}
+
+.proyect__item__content h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--main-color);
+}
+
+.proyect__item__content p {
+  height: 80px;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.proyect__item__content__actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.proyect__item__content__actions a {
+  display: inline-block;
+
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.proyect__item__content__actions a:hover {
+  color: var(--main-color-hover);
+}
+
+.proyect__item a img {
+  width: 100%;
+
+}
+
+.proyects-container img {
+  width: 250px;
+}

@@ -401,6 +401,7 @@ section#projects {
 
 .btn-show-more {
   position: absolute;
+  height: 10rem;
   width: 100%;
   bottom: 0;
   left: 0;
@@ -412,16 +413,25 @@ section#projects {
 }
 
 .btn-show-more span {
+  display: inline-block;
   font-size: 2rem;
-  padding-bottom: 2rem;
+  font-size: 2rem;
+  padding-top: 1rem;
   text-align: center;
   cursor: pointer;
   text-decoration: none;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #fff;
 }
 
-.btn-show-more a:hover {
+.btn-show-more span i {
+  display: inline-block;
+  font-size: 2.1rem;
+}
+
+.btn-show-more span:hover {
   color: var(--main-color);
+  animation: showMoreProjects 0.7s ease-in-out infinite alternate;
 }
 
 .proyects-container {
@@ -825,6 +835,18 @@ input[type=number]::-webkit-outer-spin-button {
 @keyframes showRight {
   100% {
     width: 0;
+  }
+}
+
+@keyframes showMoreProjects {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
 

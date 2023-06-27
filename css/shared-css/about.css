@@ -1,3 +1,9 @@
+@import url(./css/style.css);
+
+section#about {
+  background: var(--main-bg-color);
+}
+
 .about {
   display: flex;
   justify-content: center;

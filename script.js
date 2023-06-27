@@ -69,3 +69,15 @@ window.onload = function () {
     );
   });
 };
+
+let btnShowMore = document.getElementById("btn-show-projects");
+let sectionProjects = document.getElementById("projects");
+let hide = true
+
+btnShowMore.onclick = () => {
+  hide = !hide;
+  sectionProjects.classList.toggle("show-projects");
+  btnShowMore.innerHTML = (hide)
+    ? `<i class='bx bx-chevrons-down'></i> Ver más`
+    : `<i class='bx bx-chevrons-up'></i> Ver menos`;
+};

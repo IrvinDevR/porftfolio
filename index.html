@@ -1,44 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
-
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport"
-      content="width=device-width, height=device-height, initial-scale=1, maximum-scale=5, user-scalable=yes">
-    <meta name="description" content="Desarrollador Frontend con conocimientos: HTML5, CSS3, JavaScript, Bootstrap, Angular +14, Angular Material, NodeJS, Express, Bases de datos no relacionales, Docker, Ubuntu Server, SCRUM, Metodologías Agiles.">
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@DevRMQuiroz">
-    <meta name="twitter:creator" content="@DevRMQuiroz">
-    <meta name="twitter:title" content="Rubén Mantilla Quiroz">
-    <meta name="twitter:description" content="Dasarrollador Web Frontend - TypeScript, Angular, JavaScript ES6, SCRUM, Docker, Ubuntu Server">
-    <meta name="twitter:image" content="https://i.postimg.cc/zBSNQQfy/image.webp">
-    <!-- Open Graph -->
-    <meta property="og:title" content="Rubén Mantilla Quiroz">
-    <meta property="og:description" content="Dasarrollador Web Frontend - TypeScript, Angular, JavaScript ES6, SCRUM, Docker, Ubuntu Server">
-    <meta property="og:image" content="https://i.postimg.cc/B6j64kd1/view-portfolio-1-1.webp">
-    <meta property="og:url" content="https://rubenmantilladev.github.io/portfolio/">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Portafolio CV">
-    <meta property="og:locale" content="es_PE">
-    <meta property="og:locale:alternate" content="en_US">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link media="all" rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8" />
     <title>Rubén Mantilla - Desarrollador Frontend</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1, maximum-scale=5, user-scalable=yes"
+    />
+    <meta
+      name="description"
+      content="Desarrollador Frontend con conocimientos: HTML5, CSS3, JavaScript, Bootstrap, Angular +14, Angular Material, NodeJS, Express, Bases de datos no relacionales, Docker, Ubuntu Server, SCRUM, Metodologías Agiles."
+    />
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link media="all" rel="stylesheet" href="./css/style.min.css" defer />
     <!-- box icons -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="./css/boxicons.min.css" rel="stylesheet" defer />
+
+    <!-- emailJS -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script defer src="./script.js"></script>
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@DevRMQuiroz" />
+    <meta name="twitter:creator" content="@DevRMQuiroz" />
+    <meta name="twitter:title" content="Rubén Mantilla Quiroz" />
+    <meta
+      name="twitter:description"
+      content="Dasarrollador Web Frontend - TypeScript, Angular, JavaScript ES6, SCRUM, Docker, Ubuntu Server"
+    />
+    <meta
+      name="twitter:image"
+      content="https://i.postimg.cc/zBSNQQfy/image.webp"
+    />
+    <!-- Open Graph -->
+    <meta property="og:title" content="Rubén Mantilla Quiroz" />
+    <meta
+      property="og:description"
+      content="Dasarrollador Web Frontend - TypeScript, Angular, JavaScript ES6, SCRUM, Docker, Ubuntu Server"
+    />
+    <meta
+      property="og:image"
+      content="https://i.postimg.cc/B6j64kd1/view-portfolio-1-1.webp"
+    />
+    <meta
+      property="og:url"
+      content="https://rubenmantilladev.github.io/portfolio/"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Portafolio CV" />
+    <meta property="og:locale" content="es_PE" />
+    <meta property="og:locale:alternate" content="en_US" />
   </head>
 
   <body>
     <!-- header design -->
     <header class="header">
       <a title="Inicio" href="#home" class="logo">PortFolio.</a>
-      <div class='bx bx-menu' id="menu-icon"></div>
+      <div class="bx bx-menu" id="menu-icon"></div>
       <nav class="navbar">
         <a title="Inicio" href="#home" class="active">Inicio</a>
         <a title="Sobre mi" href="#about">Sobre mi</a>
@@ -61,22 +85,34 @@
 
         <div class="home-actions">
           <div class="home-sci">
-            <a title="Mi Github" href="https://github.com/rubenmantilladev" target="_blank"><i
-                class='bx bxl-github'></i></a>
-            <a title="Mi LinkedIn" href="https://www.linkedin.com/in/ruben-mantilla-desarrollador-frontend/"
-              target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a
+              title="Mi Github"
+              href="https://github.com/rubenmantilladev"
+              target="_blank"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a
+              title="Mi LinkedIn"
+              href="https://www.linkedin.com/in/ruben-mantilla-desarrollador-frontend/"
+              target="_blank"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
           </div>
 
           <div class="btn-box">
-            <a title="Mi Currículum"
-              href="https://drive.google.com/file/d/1ocYtvKtW6VT9V-ogBSeN4ci7oukbF1qp/view?usp=sharing" class="btn"
-              target="_blank"><i class='bx bxs-download'></i> Ver CV</a>
-            <a title="Llámame" href="tel:+51933509934" class="btn"><i class='bx bx-phone'></i>
-              Hablemos</a>
+            <a
+              title="Mi Currículum"
+              href="https://drive.google.com/file/d/1ocYtvKtW6VT9V-ogBSeN4ci7oukbF1qp/view?usp=sharing"
+              class="btn"
+              target="_blank"
+              ><i class="bx bxs-download"></i> Ver CV</a
+            >
+            <a title="Llámame" href="tel:+51933509934" class="btn"
+              ><i class="bx bx-phone"></i> Hablemos</a
+            >
           </div>
         </div>
       </article>
-
     </section>
 
     <!-- about section design -->
@@ -84,251 +120,491 @@
     <section id="about" class="about">
       <h2 class="heading">Sobre <span>mi</span></h2>
       <article class="about-img">
-        <img loading="lazy" title="foto de mi rostro" src="./images/about.webp" alt="foto de mi rostro" width="185"
-          height="185">
+        <img
+          loading="lazy"
+          title="foto de mi rostro"
+          src="./images/about.webp"
+          alt="foto de mi rostro"
+          width="185"
+          height="185"
+        />
         <span class="circle-spin"></span>
-
       </article>
       <article class="about-content">
         <h3>Frontend Developer!</h3>
         <p>
-          Experiencia en Angular. Creo interfaces de usuario atractivas y funcionales. Estoy motivado a trabajar en
-          proyectos desafiantes que me permitan aplicar mis habilidades y conocimientos adquiridos. Soy capaz de
-          trabajar en equipo, colaborando con otros desarrolladores y diseñadores para lograr los objetivos del
-          proyecto.
+          Experiencia en Angular. Creo interfaces de usuario atractivas y
+          funcionales. Estoy motivado a trabajar en proyectos desafiantes que me
+          permitan aplicar mis habilidades y conocimientos adquiridos. Soy capaz
+          de trabajar en equipo, colaborando con otros desarrolladores y
+          diseñadores para lograr los objetivos del proyecto.
         </p>
       </article>
     </section>
 
     <!-- proyects section design -->
     <section id="projects" class="projects">
-
       <h2 class="heading">Mis <span>Proyectos</span></h2>
       <article class="proyects-container">
-
         <article class="proyect__item">
-          <a title="MapIt, Tu acceso al mundo" href="https://mapit.website/" target="_blank">
-            <img title="MapIt, Tu acceso al mundo" loading="lazy" src="https://i.postimg.cc/wvCT98rG/image.png"
-              alt="Mapa de accesibilidad">
+          <a
+            title="MapIt, Tu acceso al mundo"
+            href="https://mapit.website/"
+            target="_blank"
+          >
+            <img
+              title="MapIt, Tu acceso al mundo"
+              loading="lazy"
+              src="https://i.postimg.cc/wvCT98rG/image.png"
+              alt="Mapa de accesibilidad"
+            />
           </a>
 
           <div class="proyect__item__content">
             <h3>MapIt, Tu acceso al mundo</h3>
-            <p>MapIt es una aplicación web que ayuda a personas con discapacidad a encontrar lugares accesibles,
-              permitiendo buscarlos en un mapa, ver detalles de accesibilidad y compartir experiencias con otros
-              usuarios.</p>
+            <p>
+              MapIt es una aplicación web que ayuda a personas con discapacidad
+              a encontrar lugares accesibles, permitiendo buscarlos en un mapa,
+              ver detalles de accesibilidad y compartir experiencias con otros
+              usuarios.
+            </p>
             <div class="proyect__item__content__actions">
-              <a title="Ver proyecto" href="https://mapit.website/" target="_blank" class="btn">Ver proyecto</a>
-              <a title="Ver código fuente" href="https://github.com/Devathon-ED4Team2/MapIt-Frontend"
-                target="_blank">Repositorio</a>
+              <a
+                title="Ver proyecto"
+                href="https://mapit.website/"
+                target="_blank"
+                class="btn"
+                >Ver proyecto</a
+              >
+              <a
+                title="Ver código fuente"
+                href="https://github.com/Devathon-ED4Team2/MapIt-Frontend"
+                target="_blank"
+                >Repositorio</a
+              >
             </div>
           </div>
         </article>
 
         <article class="proyect__item">
-          <a title="Translo, traductor de idiomas" href="https://rubenmantilladev.github.io/app-translate-lenguage/"
-            target="_blank">
-            <img title="Translo, traductor de idiomas" loading="lazy" src="https://i.postimg.cc/9FGRB7cK/image.png"
-              alt="traductor de idiomas">
+          <a
+            title="Translo, traductor de idiomas"
+            href="https://rubenmantilladev.github.io/app-translate-lenguage/"
+            target="_blank"
+          >
+            <img
+              title="Translo, traductor de idiomas"
+              loading="lazy"
+              src="https://i.postimg.cc/9FGRB7cK/image.png"
+              alt="traductor de idiomas"
+            />
           </a>
 
           <div class="proyect__item__content">
             <h3>Translo, traductor de idiomas</h3>
-            <p>Translo es una aplicación web que permite a los usuarios traducir textos de un idioma a otro. La
-              aplicación utiliza la API de Google Translate para traducir textos.</p>
+            <p>
+              Translo es una aplicación web que permite a los usuarios traducir
+              textos de un idioma a otro. La aplicación utiliza la API de Google
+              Translate para traducir textos.
+            </p>
             <div class="proyect__item__content__actions">
-              <a class="btn" title="Ver proyecto" href="https://rubenmantilladev.github.io/app-translate-lenguage/"
-                target="_blank" class="btn">Ver
-                proyecto</a>
-              <a class="btn" title="Ver código fuente" href="https://github.com/rubenmantilladev/app-translate-lenguage"
-                target="_blank">Repositorio</a>
+              <a
+                class="btn"
+                title="Ver proyecto"
+                href="https://rubenmantilladev.github.io/app-translate-lenguage/"
+                target="_blank"
+                class="btn"
+                >Ver proyecto</a
+              >
+              <a
+                class="btn"
+                title="Ver código fuente"
+                href="https://github.com/rubenmantilladev/app-translate-lenguage"
+                target="_blank"
+                >Repositorio</a
+              >
             </div>
           </div>
         </article>
 
         <article class="proyect__item">
-          <a title="Convert JSON to CSV" href="https://rubenmantilladev.github.io/app-json-to-csv/" target="_blank">
-            <img title="Convert JSON to CSS" loading="lazy" src="https://i.postimg.cc/pd4hVY2G/image.png"
-              alt="json a csv">
+          <a
+            title="Convert JSON to CSV"
+            href="https://rubenmantilladev.github.io/app-json-to-csv/"
+            target="_blank"
+          >
+            <img
+              title="Convert JSON to CSS"
+              loading="lazy"
+              src="https://i.postimg.cc/pd4hVY2G/image.png"
+              alt="json a csv"
+            />
           </a>
 
           <div class="proyect__item__content">
             <h3>Conversor JSON a CSV</h3>
-            <p>Conversor de archivos JSON a CSV. La aplicación permite convertir archivos JSON a CSV y descargarlos en
-              el equipo.</p>
+            <p>
+              Conversor de archivos JSON a CSV. La aplicación permite convertir
+              archivos JSON a CSV y descargarlos en el equipo.
+            </p>
             <div class="proyect__item__content__actions">
-              <a class="btn" title="Ver proyecto" href="https://rubenmantilladev.github.io/app-json-to-csv/"
-                target="_blank" class="btn">Ver proyecto</a>
-              <a class="btn" title="Ver código fuente" href="https://github.com/rubenmantilladev/app-json-to-csv"
-                target="_blank">Repositorio</a>
+              <a
+                class="btn"
+                title="Ver proyecto"
+                href="https://rubenmantilladev.github.io/app-json-to-csv/"
+                target="_blank"
+                class="btn"
+                >Ver proyecto</a
+              >
+              <a
+                class="btn"
+                title="Ver código fuente"
+                href="https://github.com/rubenmantilladev/app-json-to-csv"
+                target="_blank"
+                >Repositorio</a
+              >
             </div>
           </div>
         </article>
 
         <article class="proyect__item">
-          <a title="Lista de eventos - Timer" href="https://rubenmantilladev.github.io/event-list-timer/"
-            target="_blank">
-            <img title="Lista de eventos - Timer" loading="lazy" src="https://i.postimg.cc/g2k868MH/image.png"
-              alt="Timer Events">
+          <a
+            title="Lista de eventos - Timer"
+            href="https://rubenmantilladev.github.io/event-list-timer/"
+            target="_blank"
+          >
+            <img
+              title="Lista de eventos - Timer"
+              loading="lazy"
+              src="https://i.postimg.cc/g2k868MH/image.png"
+              alt="Timer Events"
+            />
           </a>
 
           <div class="proyect__item__content">
             <h3>Lista de eventos - Timer</h3>
-            <p>Lista de eventos con temporizador. La aplicación permite crear eventos para listarlos, organizarlos y
-              visualizar los días faltantes para este. Además, tambien permite eliminarlos.</p>
+            <p>
+              Lista de eventos con temporizador. La aplicación permite crear
+              eventos para listarlos, organizarlos y visualizar los días
+              faltantes para este. Además, tambien permite eliminarlos.
+            </p>
             <div class="proyect__item__content__actions">
-              <a class="btn" title="Ver proyecto" href="https://rubenmantilladev.github.io/event-list-timer/"
-                target="_blank" class="btn">Ver proyecto</a>
-              <a class="btn" title="Ver código fuente" href="https://github.com/rubenmantilladev/event-list-timer"
-                target="_blank">Repositorio</a>
+              <a
+                class="btn"
+                title="Ver proyecto"
+                href="https://rubenmantilladev.github.io/event-list-timer/"
+                target="_blank"
+                class="btn"
+                >Ver proyecto</a
+              >
+              <a
+                class="btn"
+                title="Ver código fuente"
+                href="https://github.com/rubenmantilladev/event-list-timer"
+                target="_blank"
+                >Repositorio</a
+              >
             </div>
           </div>
         </article>
 
         <article class="proyect__item">
-          <a title="IP geolocalization" href="https://rubenmantilladev.github.io/app-ip-geolocation/" target="_blank">
-            <img title="IP geolocalization" loading="lazy" src="https://i.postimg.cc/FKSdRWTf/image.png"
-              alt="IP geolocalization">
+          <a
+            title="IP geolocalization"
+            href="https://rubenmantilladev.github.io/app-ip-geolocation/"
+            target="_blank"
+          >
+            <img
+              title="IP geolocalization"
+              loading="lazy"
+              src="https://i.postimg.cc/FKSdRWTf/image.png"
+              alt="IP geolocalization"
+            />
           </a>
 
           <div class="proyect__item__content">
             <h3>IP geolocalization</h3>
-            <p>IP geolocalization es una aplicación web que permite a los usuarios conocer la ubicación de una IP
-              ingresada. La aplicación utiliza la API de IP Geolocation para obtener la información.</p>
+            <p>
+              IP geolocalization es una aplicación web que permite a los
+              usuarios conocer la ubicación de una IP ingresada. La aplicación
+              utiliza la API de IP Geolocation para obtener la información.
+            </p>
             <div class="proyect__item__content__actions">
-              <a class="btn" title="Ver proyecto" href="https://rubenmantilladev.github.io/app-ip-geolocation/"
-                target="_blank" class="btn">Ver proyecto</a>
-              <a class="btn" title="Ver código fuente" href="https://github.com/rubenmantilladev/app-ip-geolocation"
-                target="_blank">Repositorio</a>
+              <a
+                class="btn"
+                title="Ver proyecto"
+                href="https://rubenmantilladev.github.io/app-ip-geolocation/"
+                target="_blank"
+                class="btn"
+                >Ver proyecto</a
+              >
+              <a
+                class="btn"
+                title="Ver código fuente"
+                href="https://github.com/rubenmantilladev/app-ip-geolocation"
+                target="_blank"
+                >Repositorio</a
+              >
             </div>
           </div>
         </article>
 
         <article class="proyect__item">
-          <a title="Calculadora" href="https://rubenmantilladev.github.io/calculator-dark-ligth-mode/" target="_blank">
-            <img title="Calculadora Dark Mode" loading="lazy" src="https://i.postimg.cc/8CH8wg4Q/image.png"
-              alt="Calculadora Dark Mode">
+          <a
+            title="Calculadora"
+            href="https://rubenmantilladev.github.io/calculator-dark-ligth-mode/"
+            target="_blank"
+          >
+            <img
+              title="Calculadora Dark Mode"
+              loading="lazy"
+              src="https://i.postimg.cc/8CH8wg4Q/image.png"
+              alt="Calculadora Dark Mode"
+            />
           </a>
 
           <div class="proyect__item__content">
             <h3>Calculadora Dark Mode</h3>
-            <p>Calculadora con modo oscuro. La aplicación permite realizar operaciones matemáticas básicas y cambiar
-              entre modo oscuro y claro.</p>
+            <p>
+              Calculadora con modo oscuro. La aplicación permite realizar
+              operaciones matemáticas básicas y cambiar entre modo oscuro y
+              claro.
+            </p>
             <div class="proyect__item__content__actions">
-              <a class="btn" title="Ver proyecto" href="https://rubenmantilladev.github.io/calculator-dark-ligth-mode/"
-                target="_blank" class="btn">Ver proyecto</a>
-              <a class="btn" title="Ver código fuente"
-                href="https://github.com/rubenmantilladev/calculator-dark-ligth-mode" target="_blank">Repositorio</a>
+              <a
+                class="btn"
+                title="Ver proyecto"
+                href="https://rubenmantilladev.github.io/calculator-dark-ligth-mode/"
+                target="_blank"
+                class="btn"
+                >Ver proyecto</a
+              >
+              <a
+                class="btn"
+                title="Ver código fuente"
+                href="https://github.com/rubenmantilladev/calculator-dark-ligth-mode"
+                target="_blank"
+                >Repositorio</a
+              >
             </div>
           </div>
         </article>
 
         <article class="proyect__item">
-          <a title="Responsive KFC" href="https://rubenmantilladev.github.io/kfc-main/" target="_blank">
-            <img title="Responsive KFC" loading="lazy" src="https://i.postimg.cc/dtpq5zPL/image.png"
-              alt="Responsive KFC">
+          <a
+            title="Responsive KFC"
+            href="https://rubenmantilladev.github.io/kfc-main/"
+            target="_blank"
+          >
+            <img
+              title="Responsive KFC"
+              loading="lazy"
+              src="https://i.postimg.cc/dtpq5zPL/image.png"
+              alt="Responsive KFC"
+            />
           </a>
 
           <div class="proyect__item__content">
             <h3>Responsive KFC</h3>
-            <p>Responsive KFC es una página web responsive de la cadena de restaurantes KFC. La página web fue creada
-              con HTML, CSS y JavaScript.</p>
+            <p>
+              Responsive KFC es una página web responsive de la cadena de
+              restaurantes KFC. La página web fue creada con HTML, CSS y
+              JavaScript.
+            </p>
             <div class="proyect__item__content__actions">
-              <a class="btn" title="Ver proyecto" href="https://rubenmantilladev.github.io/kfc-main/" target="_blank"
-                class="btn">Ver proyecto</a>
-              <a class="btn" title="Ver código fuente" href="https://github.com/rubenmantilladev/kfc-main"
-                target="_blank">Repositorio</a>
+              <a
+                class="btn"
+                title="Ver proyecto"
+                href="https://rubenmantilladev.github.io/kfc-main/"
+                target="_blank"
+                class="btn"
+                >Ver proyecto</a
+              >
+              <a
+                class="btn"
+                title="Ver código fuente"
+                href="https://github.com/rubenmantilladev/kfc-main"
+                target="_blank"
+                >Repositorio</a
+              >
             </div>
           </div>
         </article>
 
         <article class="proyect__item">
-          <a title="Pomodoro" href="https://rubenmantilladev.github.io/pomodoro/" target="_blank">
-            <img title="Pomodoro" loading="lazy" src="https://i.postimg.cc/Dft9BHBp/image.png" alt="Pomodoro">
+          <a
+            title="Pomodoro"
+            href="https://rubenmantilladev.github.io/pomodoro/"
+            target="_blank"
+          >
+            <img
+              title="Pomodoro"
+              loading="lazy"
+              src="https://i.postimg.cc/Dft9BHBp/image.png"
+              alt="Pomodoro"
+            />
           </a>
 
           <div class="proyect__item__content">
             <h3>Pomodoro App</h3>
-            <p>Pomodoro App es una aplicación web que permite a los usuarios administrar su tiempo de trabajo y
-              descanso. La aplicación fue creada con HTML, CSS y JavaScript.</p>
+            <p>
+              Pomodoro App es una aplicación web que permite a los usuarios
+              administrar su tiempo de trabajo y descanso. La aplicación fue
+              creada con HTML, CSS y JavaScript.
+            </p>
 
             <div class="proyect__item__content__actions">
-              <a class="btn" title="Ver proyecto" href="https://rubenmantilladev.github.io/pomodoro/" target="_blank"
-                class="btn">Ver proyecto</a>
-              <a class="btn" title="Ver código fuente" href="https://github.com/rubenmantilladev/pomodoro"
-                target="_blank">Repositorio</a>
+              <a
+                class="btn"
+                title="Ver proyecto"
+                href="https://rubenmantilladev.github.io/pomodoro/"
+                target="_blank"
+                class="btn"
+                >Ver proyecto</a
+              >
+              <a
+                class="btn"
+                title="Ver código fuente"
+                href="https://github.com/rubenmantilladev/pomodoro"
+                target="_blank"
+                >Repositorio</a
+              >
             </div>
           </div>
         </article>
 
         <article class="proyect__item">
-          <a title="3 en raya" href="https://rubenmantilladev.github.io/tic-tac-toe/" target="_blank">
-            <img title="3 en raya" loading="lazy" src="https://i.postimg.cc/PqMXtyNH/image.png" alt="Tres en raya">
+          <a
+            title="3 en raya"
+            href="https://rubenmantilladev.github.io/tic-tac-toe/"
+            target="_blank"
+          >
+            <img
+              title="3 en raya"
+              loading="lazy"
+              src="https://i.postimg.cc/PqMXtyNH/image.png"
+              alt="Tres en raya"
+            />
           </a>
 
           <div class="proyect__item__content">
             <h3>Tres en raya</h3>
-            <p>Tres en raya es un clásico juego para dos jugadores, donde el objetivo es lograr una línea de tres
-              símbolos iguales. Este ha sido desarrollado utilizando HTML, CSS y JavaScript.</p>
+            <p>
+              Tres en raya es un clásico juego para dos jugadores, donde el
+              objetivo es lograr una línea de tres símbolos iguales. Este ha
+              sido desarrollado utilizando HTML, CSS y JavaScript.
+            </p>
 
             <div class="proyect__item__content__actions">
-              <a class="btn" title="Ver proyecto" href="https://rubenmantilladev.github.io/tic-tac-toe/" target="_blank"
-                class="btn">Ver proyecto</a>
-              <a class="btn" title="Ver código fuente" href="https://github.com/rubenmantilladev/tic-tac-toe"
-                target="_blank">Repositorio</a>
+              <a
+                class="btn"
+                title="Ver proyecto"
+                href="https://rubenmantilladev.github.io/tic-tac-toe/"
+                target="_blank"
+                class="btn"
+                >Ver proyecto</a
+              >
+              <a
+                class="btn"
+                title="Ver código fuente"
+                href="https://github.com/rubenmantilladev/tic-tac-toe"
+                target="_blank"
+                >Repositorio</a
+              >
             </div>
           </div>
         </article>
 
         <article class="proyect__item">
-          <a title="Teclado Virtual" href="https://rubenmantilladev.github.io/teclado-virtual/" target="_blank">
-            <img title="Teclado Virtual" loading="lazy" src="https://i.postimg.cc/T3dJg8KW/image.png"
-              alt="Teclado Virtual">
+          <a
+            title="Teclado Virtual"
+            href="https://rubenmantilladev.github.io/teclado-virtual/"
+            target="_blank"
+          >
+            <img
+              title="Teclado Virtual"
+              loading="lazy"
+              src="https://i.postimg.cc/T3dJg8KW/image.png"
+              alt="Teclado Virtual"
+            />
           </a>
 
           <div class="proyect__item__content">
             <h3>Teclado Virtual</h3>
-            <p>Teclado virtual es una aplicación web que permite a los usuarios escribir en un campo de texto sin
-              necesidad de utilizar el teclado físico. La aplicación fue creada con HTML, CSS y JavaScript.</p>
+            <p>
+              Teclado virtual es una aplicación web que permite a los usuarios
+              escribir en un campo de texto sin necesidad de utilizar el teclado
+              físico. La aplicación fue creada con HTML, CSS y JavaScript.
+            </p>
 
             <div class="proyect__item__content__actions">
-              <a class="btn" title="Ver proyecto" href="https://rubenmantilladev.github.io/teclado-virtual/"
-                target="_blank" class="btn">Ver proyecto</a>
-              <a class="btn" title="Ver código fuente" href="https://github.com/rubenmantilladev/teclado-virtual"
-                target="_blank">Repositorio</a>
+              <a
+                class="btn"
+                title="Ver proyecto"
+                href="https://rubenmantilladev.github.io/teclado-virtual/"
+                target="_blank"
+                class="btn"
+                >Ver proyecto</a
+              >
+              <a
+                class="btn"
+                title="Ver código fuente"
+                href="https://github.com/rubenmantilladev/teclado-virtual"
+                target="_blank"
+                >Repositorio</a
+              >
             </div>
           </div>
         </article>
 
         <article class="proyect__item">
-          <a title="Máscara de Tarjeta de Crédito" href="https://rubenmantilladev.github.io/mask-credit-card/"
-            target="_blank">
-            <img title="Máscara de tarjeta de crédito" loading="lazy" src="https://i.postimg.cc/5tPyVJP1/image.png"
-              alt="Mask Credic card">
+          <a
+            title="Máscara de Tarjeta de Crédito"
+            href="https://rubenmantilladev.github.io/mask-credit-card/"
+            target="_blank"
+          >
+            <img
+              title="Máscara de tarjeta de crédito"
+              loading="lazy"
+              src="https://i.postimg.cc/5tPyVJP1/image.png"
+              alt="Mask Credic card"
+            />
           </a>
 
           <div class="proyect__item__content">
             <h3>Máscara de tarjeta de crédito</h3>
-            <p>Máscara de tarjeta de crédito es una aplicación web que permite a los usuarios ingresar su número de
-              tarjeta de crédito de forma segura. La aplicación fue creada con HTML, CSS y JavaScript.</p>
+            <p>
+              Máscara de tarjeta de crédito es una aplicación web que permite a
+              los usuarios ingresar su número de tarjeta de crédito de forma
+              segura. La aplicación fue creada con HTML, CSS y JavaScript.
+            </p>
 
             <div class="proyect__item__content__actions">
-              <a class="btn" title="Ver proyecto" href="https://rubenmantilladev.github.io/mask-credit-card/"
-                target="_blank" class="btn">Ver proyecto</a>
-              <a class="btn" title="Ver código fuente" href="https://github.com/rubenmantilladev/mask-credit-card"
-                target="_blank">Repositorio</a>
+              <a
+                class="btn"
+                title="Ver proyecto"
+                href="https://rubenmantilladev.github.io/mask-credit-card/"
+                target="_blank"
+                class="btn"
+                >Ver proyecto</a
+              >
+              <a
+                class="btn"
+                title="Ver código fuente"
+                href="https://github.com/rubenmantilladev/mask-credit-card"
+                target="_blank"
+                >Repositorio</a
+              >
             </div>
           </div>
         </article>
-
       </article>
 
       <div class="btn-show-more">
-        <span id="btn-show-projects">
-          <i class='bx bx-chevrons-down'></i> Ver más
-        </span>
+        <a href="#projects" id="btn-show-projects">
+          <i class="bx bx-chevrons-down"></i> Ver más
+        </a>
       </div>
-
     </section>
 
     <!-- education section design -->
@@ -338,29 +614,41 @@
       <article class="education-box">
         <article class="education-content">
           <div class="content">
-            <div class="year"><i class='bx bxs-calendar'></i> 2022 - 2023 </div>
+            <div class="year"><i class="bx bxs-calendar"></i> 2022 - 2023</div>
             <h3>Desarrollador Web Frontend - Certus (BJB 3.0)</h3>
-            <p>Fui uno de los seleccionados por el programa <b>Beca Jóvenes Bicentenario</b> en su tercera edicion,
-              por el cual el instituto Certus me formó en tecnologías como HTML5, CSS3, JavaScript, Bootstrap,
-              Framework Angular 14, Angular Material, entre otros.</p>
+            <p>
+              Fui uno de los seleccionados por el programa
+              <b>Beca Jóvenes Bicentenario</b> en su tercera edicion, por el
+              cual el instituto Certus me formó en tecnologías como HTML5, CSS3,
+              JavaScript, Bootstrap, Framework Angular 14, Angular Material,
+              entre otros.
+            </p>
           </div>
         </article>
 
         <article class="education-content">
           <div class="content">
-            <div class="year"><i class='bx bxs-calendar'></i> 2022 - Actual </div>
+            <div class="year">
+              <i class="bx bxs-calendar"></i> 2022 - Actual
+            </div>
             <h3>Desarrollo Backend - Alura Latam</h3>
-            <p>A traves del programa Oracle Next Education en asociacion con Alura Latam, obtuve conocimientos en
-              Java, POO, Spring Boot y Bases de datos SQL y MySQL</p>
+            <p>
+              A traves del programa Oracle Next Education en asociacion con
+              Alura Latam, obtuve conocimientos en Java, POO, Spring Boot y
+              Bases de datos SQL y MySQL
+            </p>
           </div>
         </article>
 
         <article class="education-content">
           <div class="content">
-            <div class="year"><i class='bx bxs-calendar'></i> 2022 </div>
+            <div class="year"><i class="bx bxs-calendar"></i> 2022</div>
             <h3>Programación desde Cero - Egg Education</h3>
-            <p>Por medio del programa Programacion desde cero fui formado en los fundamentos de la programación,
-              lógica de programación, redes, entre otros</p>
+            <p>
+              Por medio del programa Programacion desde cero fui formado en los
+              fundamentos de la programación, lógica de programación, redes,
+              entre otros
+            </p>
           </div>
         </article>
       </article>
@@ -371,104 +659,155 @@
     <section class="skills" id="skills">
       <h2 class="heading">Mis <span>Skills</span></h2>
 
-
       <div class="skills-content">
-
         <div class="skill_item">
-          <img loading="lazy" title="icon html" src="images/skills/html.svg" alt="html">
+          <img
+            loading="lazy"
+            title="icon html"
+            src="images/skills/html.svg"
+            alt="html"
+          />
           <p>HTML5</p>
         </div>
         <div class="skill_item">
-          <img loading="lazy" title="icon css" src="images/skills/css.svg" alt="css">
+          <img
+            loading="lazy"
+            title="icon css"
+            src="images/skills/css.svg"
+            alt="css"
+          />
           <p>CSS3</p>
         </div>
         <div class="skill_item">
-          <img loading="lazy" title="icon scss" src="images/skills/scss.svg" alt="scss">
+          <img
+            loading="lazy"
+            title="icon scss"
+            src="images/skills/scss.svg"
+            alt="scss"
+          />
           <p>SCSS</p>
         </div>
 
         <div class="skill_item">
-          <img loading="lazy" title="icon bootstrap" src="images/skills/bootstrap.svg" alt="bootstrap">
+          <img
+            loading="lazy"
+            title="icon bootstrap"
+            src="images/skills/bootstrap.svg"
+            alt="bootstrap"
+          />
           <p>Bootstrap</p>
         </div>
 
         <div class="skill_item">
-          <img loading="lazy" title="icon tailwind" src="images/skills/tailwind.svg" alt="tailwind">
-          <p>Tailwind</p>
-        </div>
-
-        <div class="skill_item">
-          <img loading="lazy" title="icon javascript" src="images/skills/javascript.svg" alt="javascript">
+          <img
+            loading="lazy"
+            title="icon javascript"
+            src="images/skills/javascript.svg"
+            alt="javascript"
+          />
           <p>JavaScript</p>
         </div>
 
         <div class="skill_item">
-          <img loading="lazy" title="icon typescript" src="images/skills/typescript.svg" alt="typescript">
+          <img
+            loading="lazy"
+            title="icon typescript"
+            src="images/skills/typescript.svg"
+            alt="typescript"
+          />
           <p>TypeScript</p>
         </div>
 
         <div class="skill_item">
-          <img loading="lazy" title="icon jquery" src="images/skills/jquery.svg" alt="jquery">
+          <img
+            loading="lazy"
+            title="icon jquery"
+            src="images/skills/jquery.svg"
+            alt="jquery"
+          />
           <p>jQuery</p>
         </div>
 
         <div class="skill_item">
-          <img loading="lazy" title="icon angular" src="images/skills/angular.svg" alt="angular">
+          <img
+            loading="lazy"
+            title="icon angular"
+            src="images/skills/angular.svg"
+            alt="angular"
+          />
           <p>Angular</p>
         </div>
 
         <div class="skill_item">
-          <img loading="lazy" title="icon angular material" src="images/skills/material.svg" alt="angular material">
+          <img
+            loading="lazy"
+            title="icon angular material"
+            src="images/skills/material.svg"
+            alt="angular material"
+          />
           <p>Angular Material</p>
         </div>
 
         <div class="skill_item">
-          <img loading="lazy" title="icon git" src="images/skills/git.svg" alt="git">
+          <img
+            loading="lazy"
+            title="icon git"
+            src="images/skills/git.svg"
+            alt="git"
+          />
           <p>Git</p>
         </div>
 
         <div class="skill_item">
-          <img loading="lazy" title="icon github" src="images/skills/github.svg" alt="github">
+          <img
+            loading="lazy"
+            title="icon github"
+            src="images/skills/github.svg"
+            alt="github"
+          />
           <p>Github</p>
         </div>
 
         <div class="skill_item">
-          <img loading="lazy" title="icon mongodb" src="images/skills/mongodb.svg" alt="mongodb">
+          <img
+            loading="lazy"
+            title="icon mongodb"
+            src="images/skills/mongodb.svg"
+            alt="mongodb"
+          />
           <p>MongoDB</p>
         </div>
 
         <div class="skill_item">
-          <img loading="lazy" title="icon nodejs" src="images/skills/node.svg" alt="nodejs">
-          <p>NodeJS</p>
-        </div>
-
-        <div class="skill_item">
-          <img loading="lazy" title="icon express" src="images/skills/express.svg" alt="express">
-          <p>Express</p>
-        </div>
-
-        <div class="skill_item">
-          <img loading="lazy" title="icon npm" src="images/skills/npm.svg" alt="npm">
+          <img
+            loading="lazy"
+            title="icon npm"
+            src="images/skills/npm.svg"
+            alt="npm"
+          />
           <p>npm</p>
         </div>
 
         <div class="skill_item">
-          <img loading="lazy" title="icon docker" src="images/skills/docker.svg" alt="docker">
+          <img
+            loading="lazy"
+            title="icon docker"
+            src="images/skills/docker.svg"
+            alt="docker"
+          />
           <p>Docker</p>
         </div>
 
         <div class="skill_item">
-          <img loading="lazy" title="icon ubuntu server" src="images/skills/ubuntu.svg" alt="ubuntu server">
-          <p>Ubuntu Server</p>
-        </div>
-
-        <div class="skill_item">
-          <img loading="lazy" title="icon figma" src="images/skills/figma.svg" alt="figma">
+          <img
+            loading="lazy"
+            title="icon figma"
+            src="images/skills/figma.svg"
+            alt="figma"
+          />
           <p>Figma</p>
         </div>
-
       </div>
-
     </section>
 
     <!-- contact section design -->
@@ -477,26 +816,57 @@
       <form id="form">
         <div class="input-box">
           <fieldset class="input-field">
-            <input type="text" placeholder="Nombres y Apellidos" name="from_name" id="from_name" required>
+            <input
+              type="text"
+              placeholder="Nombres y Apellidos"
+              name="from_name"
+              id="from_name"
+              required
+            />
             <span class="focus"></span>
           </fieldset>
           <fieldset class="input-field">
-            <input type="text" placeholder="Email" name="email_id" id="email_id" required>
+            <input
+              type="text"
+              placeholder="Email"
+              name="email_id"
+              id="email_id"
+              required
+            />
             <span class="focus"></span>
           </fieldset>
         </div>
         <div class="input-box">
           <fieldset class="input-field">
-            <input type="tel" placeholder="Teléfono" name="contact_number" id="contact_number" required>
+            <input
+              type="tel"
+              placeholder="Teléfono"
+              name="contact_number"
+              id="contact_number"
+              required
+            />
             <span class="focus"></span>
           </fieldset>
           <fieldset class="input-field">
-            <input type="text" placeholder="Asunto" name="subjet" id="subjet" required>
+            <input
+              type="text"
+              placeholder="Asunto"
+              name="subjet"
+              id="subjet"
+              required
+            />
             <span class="focus"></span>
           </fieldset>
         </div>
         <div class="textarea-field">
-          <textarea name="message" id="message" cols="30" rows="6" placeholder="Mensaje" required></textarea>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="6"
+            placeholder="Mensaje"
+            required
+          ></textarea>
           <span class="focus"></span>
         </div>
         <div class="btn-box btns">
@@ -511,13 +881,10 @@
         <p>Rubén Mantilla Quiroz | 2023</p>
       </div>
       <div class="footer-iconTop">
-        <a title="Volver al Inicio" href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        <a title="Volver al Inicio" href="#home"
+          ><i class="bx bx-up-arrow-alt"></i
+        ></a>
       </div>
     </footer>
-
-    <!-- emailJS -->
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script src="./script.js"></script>
   </body>
-
 </html>

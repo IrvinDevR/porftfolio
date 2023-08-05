@@ -1,0 +1,84 @@
+{
+  "cards": [
+    {
+      "title": "MapIt",
+      "url": "https://mapit.website/",
+      "image": "https://i.postimg.cc/wvCT98rG/image.png",
+      "alt_image": "Mapa de Accesibilidad para personas con discapacidad",
+      "description": "Encuentra lugares accesibles, ver detalles y compartir experiencias entre personas con discapacidad.",
+      "repository": "https://github.com/Devathon-ED4Team2/MapIt-Frontend"
+    },
+    {
+      "title": "Translo",
+      "url": "https://rubenmantilladev.github.io/app-translate-lenguage/",
+      "image": "https://i.postimg.cc/9FGRB7cK/image.png",
+      "alt_image": "traductor de idiomas",
+      "description": "Permite traducir textos entre idiomas utilizando la API de Google Translate.",
+      "repository": "https://github.com/rubenmantilladev/app-translate-lenguage"
+    },
+    {
+      "title": "Conversor JSON a CSV",
+      "url": "https://rubenmantilladev.github.io/app-json-to-csv/",
+      "image": "https://i.postimg.cc/pd4hVY2G/image.png",
+      "alt_image": "json a csv",
+      "description": "JSON a CSV: Una Aplicación para convertir y descargar archivos.",
+      "repository": "https://github.com/rubenmantilladev/app-json-to-csv"
+    },
+    {
+      "title": "Lista de eventos - Timer",
+      "url": "https://rubenmantilladev.github.io/event-list-timer/",
+      "image": "https://i.postimg.cc/g2k868MH/image.png",
+      "alt_image": "Timer Events",
+      "description": "Aplicación para eventos con temporizador y funciones de crear, organizar, visualizar y eliminar.",
+      "repository": "https://github.com/rubenmantilladev/event-list-timer"
+    },
+    {
+      "title": "IP geolocalization",
+      "url": "https://rubenmantilladev.github.io/app-ip-geolocation/",
+      "image": "https://i.postimg.cc/FKSdRWTf/image.png",
+      "alt_image": "IP geolocalization",
+      "description": "IP Geolocalization: App web para ubicar IPs usando API de Geolocalización de IP.",
+      "repository": "https://github.com/rubenmantilladev/app-ip-geolocation"
+    },
+    {
+      "title": "Calculadora",
+      "url": "https://rubenmantilladev.github.io/calculator-dark-ligth-mode/",
+      "image": "https://i.postimg.cc/8CH8wg4Q/image.png",
+      "alt_image": "Calculadora Dark Mode",
+      "description": "Calculadora con modo oscuro: App para operaciones matemáticas con tema claro y oscuro.",
+      "repository": "https://github.com/rubenmantilladev/calculator-dark-ligth-mode"
+    },
+    {
+      "title": "Responsive KFC",
+      "url": "https://rubenmantilladev.github.io/kfc-main/",
+      "image": "https://i.postimg.cc/dtpq5zPL/image.png",
+      "alt_image": "Responsive KFC",
+      "description": "Responsive KFC: Página web de la cadena de restaurantes KFC creada con HTML, CSS y JavaScript.",
+      "repository": "https://github.com/rubenmantilladev/kfc-main"
+    },
+    {
+      "title": "Pomodoro",
+      "url": "https://rubenmantilladev.github.io/pomodoro/",
+      "image": "https://i.postimg.cc/Dft9BHBp/image.png",
+      "alt_image": "Pomodoro",
+      "description": "Pomodoro App: Permite administrar tiempo de trabajo y descanso, creada con HTML, CSS y JavaScript.",
+      "repository": "https://github.com/rubenmantilladev/pomodoro"
+    },
+    {
+      "title": "3 en raya",
+      "url": "https://rubenmantilladev.github.io/tic-tac-toe/",
+      "image": "https://i.postimg.cc/PqMXtyNH/image.png",
+      "alt_image": "3 en raya",
+      "description": "Tres en raya: Juego clásico para dos jugadores, desarrollado con HTML, CSS y JavaScript.",
+      "repository": "https://github.com/rubenmantilladev/tic-tac-toe"
+    },
+    {
+      "title": "Teclado Virtual",
+      "url": "https://rubenmantilladev.github.io/teclado-virtual/",
+      "image": "https://i.postimg.cc/T3dJg8KW/image.png",
+      "alt_image": "Teclado Virtual",
+      "description": "Teclado virtual: App web para escribir sin teclado físico. HTML, CSS y JavaScript.",
+      "repository": "https://github.com/rubenmantilladev/teclado-virtual"
+    }
+  ]
+}

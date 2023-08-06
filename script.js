@@ -61,7 +61,7 @@ window.onscroll = () => {
 
 // enviar correo
 window.onload = function () {
-  emailjs.init("wnBpZLdftA09_3-7A");
+  emailjs.init(API_URL_EMAILJS);
 
   form.addEventListener("submit", function (event) {
     event.preventDefault();

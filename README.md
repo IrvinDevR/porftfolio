@@ -20,7 +20,7 @@ This is my personal portfolio, developed using HTML5, CSS3, and JavaScript. I ha
 ## Usage
 
 1. Clone or download the repository to your local machine.
-2. Open the index.html file with (Live Server)[https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer].
+2. Open the index.html file with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 ## EmailJS Configuration
 

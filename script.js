@@ -23,7 +23,7 @@ currentYear.innerText = new Date().getFullYear();
 fetch("json/proyects.json")
   .then((res) => res.json())
   .then((data) => {
-    fetchProyects(data);
+    createCard(data);
   })
   .catch((error) => console.error("Error al cargar el archivo JSON:", error));
 
@@ -98,7 +98,7 @@ showMore.onclick = () => {
     : `<i class='bx bx-chevrons-up'></i> Ver menos`;
 };
 
-function fetchProyects(data) {
+function createCard(data) {
   data.cards.forEach((proyect) => {
     proyects.innerHTML += `
       <article class="proyect__item">

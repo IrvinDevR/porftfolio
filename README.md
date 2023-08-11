@@ -20,20 +20,13 @@ This is my personal portfolio, developed using HTML5, CSS3, and JavaScript. I ha
 ## Usage
 
 1. Clone or download the repository to your local machine.
-2. Open the index.html file in your web browser.
+2. Open the index.html file with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 ## EmailJS Configuration
 
 If you want to use the contact form and receive messages in your own email, follow these steps:
 
 1. Create an account on [EmailJS](https://www.emailjs.com/) if you don't have one.
-
-    ```javascript
-      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-      <script type="text/javascript">
-        emailjs.init('YOUR_PUBLIC_KEY')
-      </script>
-    ```
 
 2. Add an email service
     ![Ejemplo 1](https://i.postimg.cc/kM2yhtw7/image.png)
@@ -42,8 +35,14 @@ If you want to use the contact form and receive messages in your own email, foll
     ![Ejemplo 2](https://i.postimg.cc/SKcB9v2t/image.png)
     ![Ejemplo 3](https://i.postimg.cc/7PpYSpfq/image.png)
 
-5. Create an HTML form
+5. Create an HTML form and add this code:
 
+    ```html
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+      <script type="text/javascript">
+        emailjs.init('YOUR_PUBLIC_KEY')
+      </script>
+    ```
     ```html
      <form id="contact-form">
          <input type="hidden" name="contact_number">

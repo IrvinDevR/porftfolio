@@ -1,20 +1,58 @@
 {
   "cards": [
     {
+      "title": "Ecommerce",
+      "url": "https://ecommerce-rubenmantilladev.vercel.app/home",
+      "image": "https://i.postimg.cc/KcCXNLj0/Ecommerce-rubenmantilladev-vercel.png",
+      "alt_image": "E-commerce consumiendo la API de Platzi",
+      "description": "E-commerce consumiendo la API de Platzi, desarrollado con Angular, Rxjs, Styled Components, ESLint, Prettier, Husky, Lint Staged, Vercel.",
+      "repository": "https://github.com/rubenmantilladev/e-commerce",
+      "tags": [
+        "Angular",
+        "SCSS",
+        "ESLint",
+        "Prettier",
+        "Husky",
+        "Vercel",
+        "Platzi Fake Store API"
+      ]
+    },
+    {
       "title": "MapIt",
       "url": "https://mapit.website/",
       "image": "https://i.postimg.cc/wvCT98rG/image.png",
       "alt_image": "Mapa de Accesibilidad para personas con discapacidad",
       "description": "Encuentra lugares accesibles, ver detalles y compartir experiencias entre personas con discapacidad.",
-      "repository": "https://github.com/Devathon-ED4Team2/MapIt-Frontend"
+      "repository": "https://github.com/Devathon-ED4Team2/MapIt-Frontend",
+      "tags": [
+        "Angular",
+        "Angular Material",
+        "Google Maps API",
+        "SCSS",
+        "TailwindCSS",
+        "ESLint",
+        "Prettier",
+        "Husky",
+        "Linux Server",
+        "Docker",
+        "Nginx"
+      ]
     },
     {
       "title": "Translo",
       "url": "https://rubenmantilladev.github.io/app-translate-lenguage/",
       "image": "https://i.postimg.cc/9FGRB7cK/image.png",
       "alt_image": "traductor de idiomas",
-      "description": "Permite traducir textos entre idiomas utilizando la API de Google Translate.",
-      "repository": "https://github.com/rubenmantilladev/app-translate-lenguage"
+      "description": "Permite traducir textos entre idiomas utilizando la API Text Translate.",
+      "repository": "https://github.com/rubenmantilladev/app-translate-lenguage",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "RapidAPI Hub",
+        "JQuery",
+        "SpeechRecognition API"
+      ]
     },
     {
       "title": "Conversor JSON a CSV",
@@ -22,7 +60,13 @@
       "image": "https://i.postimg.cc/pd4hVY2G/image.png",
       "alt_image": "json a csv",
       "description": "JSON a CSV: Una Aplicación para convertir y descargar archivos.",
-      "repository": "https://github.com/rubenmantilladev/app-json-to-csv"
+      "repository": "https://github.com/rubenmantilladev/app-json-to-csv",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "JQuery"
+      ]
     },
     {
       "title": "Lista de eventos - Timer",
@@ -30,7 +74,13 @@
       "image": "https://i.postimg.cc/g2k868MH/image.png",
       "alt_image": "Timer Events",
       "description": "Aplicación para eventos con temporizador y funciones de crear, organizar, visualizar y eliminar.",
-      "repository": "https://github.com/rubenmantilladev/event-list-timer"
+      "repository": "https://github.com/rubenmantilladev/event-list-timer",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "JQuery"
+      ]
     },
     {
       "title": "IP geolocalization",
@@ -38,7 +88,14 @@
       "image": "https://i.postimg.cc/FKSdRWTf/image.png",
       "alt_image": "IP geolocalization",
       "description": "IP Geolocalization: App web para ubicar IPs usando API de Geolocalización de IP.",
-      "repository": "https://github.com/rubenmantilladev/app-ip-geolocation"
+      "repository": "https://github.com/rubenmantilladev/app-ip-geolocation",
+      "tags": [
+        "HTML",
+        "Pico CSS",
+        "JavaScript",
+        "JQuery",
+        "IP Geo Location API"
+      ]
     },
     {
       "title": "Calculadora",
@@ -46,7 +103,13 @@
       "image": "https://i.postimg.cc/8CH8wg4Q/image.png",
       "alt_image": "Calculadora Dark Mode",
       "description": "Calculadora con modo oscuro: App para operaciones matemáticas con tema claro y oscuro.",
-      "repository": "https://github.com/rubenmantilladev/calculator-dark-ligth-mode"
+      "repository": "https://github.com/rubenmantilladev/calculator-dark-ligth-mode",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "JQuery"
+      ]
     },
     {
       "title": "Responsive KFC",
@@ -54,7 +117,12 @@
       "image": "https://i.postimg.cc/dtpq5zPL/image.png",
       "alt_image": "Responsive KFC",
       "description": "Responsive KFC: Página web de la cadena de restaurantes KFC creada con HTML, CSS y JavaScript.",
-      "repository": "https://github.com/rubenmantilladev/kfc-main"
+      "repository": "https://github.com/rubenmantilladev/kfc-main",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
     },
     {
       "title": "Pomodoro",
@@ -62,7 +130,12 @@
       "image": "https://i.postimg.cc/Dft9BHBp/image.png",
       "alt_image": "Pomodoro",
       "description": "Pomodoro App: Permite administrar tiempo de trabajo y descanso, creada con HTML, CSS y JavaScript.",
-      "repository": "https://github.com/rubenmantilladev/pomodoro"
+      "repository": "https://github.com/rubenmantilladev/pomodoro",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
     },
     {
       "title": "3 en raya",
@@ -70,7 +143,12 @@
       "image": "https://i.postimg.cc/PqMXtyNH/image.png",
       "alt_image": "3 en raya",
       "description": "Tres en raya: Juego clásico para dos jugadores, desarrollado con HTML, CSS y JavaScript.",
-      "repository": "https://github.com/rubenmantilladev/tic-tac-toe"
+      "repository": "https://github.com/rubenmantilladev/tic-tac-toe",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
     },
     {
       "title": "Teclado Virtual",
@@ -78,7 +156,12 @@
       "image": "https://i.postimg.cc/T3dJg8KW/image.png",
       "alt_image": "Teclado Virtual",
       "description": "Teclado virtual: App web para escribir sin teclado físico. HTML, CSS y JavaScript.",
-      "repository": "https://github.com/rubenmantilladev/teclado-virtual"
+      "repository": "https://github.com/rubenmantilladev/teclado-virtual",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
     }
   ]
 }

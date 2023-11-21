@@ -1,6 +1,40 @@
 {
   "cards": [
     {
+      "title": "DocTime",
+      "url": "https://doctime-frontend.vercel.app",
+      "image": "https://i.postimg.cc/2Smmhzp5/doctime.png",
+      "alt_image": "DocTime",
+      "description": "DocTime es una innovadora aplicación diseñada para simplificar la programación de citas médicas tanto para pacientes como para médicos.",
+      "repository": "https://github.com/No-Country/C13-01-N-JAVA-ANGULAR",
+      "tags": [
+        "Angular",
+        "SCSS",
+        "Angular Material",
+        "ESLint",
+        "Prettier",
+        "Husky",
+        "Vercel"
+      ]
+    },
+    {
+      "title": "QuantumGamer",
+      "url": "https://quantumgamer.vercel.app",
+      "image": "https://i.postimg.cc/434vhT2k/quantumgamer.png",
+      "alt_image": "QuantumGamer",
+      "description": "Mercado en línea para comprar y vender videojuegos.",
+      "repository": "https://github.com/No-Country/s11-11-n-java-angular",
+      "tags": [
+        "Angular",
+        "SCSS",
+        "Angular Material",
+        "ESLint",
+        "Prettier",
+        "Husky",
+        "Vercel"
+      ]
+    },
+    {
       "title": "Ecommerce",
       "url": "https://ecommerce-rubenmantilladev.vercel.app/home",
       "image": "https://i.postimg.cc/KcCXNLj0/Ecommerce-rubenmantilladev-vercel.png",
@@ -61,12 +95,7 @@
       "alt_image": "json a csv",
       "description": "JSON a CSV: Una Aplicación para convertir y descargar archivos.",
       "repository": "https://github.com/rubenmantilladev/app-json-to-csv",
-      "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "JQuery"
-      ]
+      "tags": ["HTML", "CSS", "JavaScript", "JQuery"]
     },
     {
       "title": "Lista de eventos - Timer",
@@ -75,12 +104,7 @@
       "alt_image": "Timer Events",
       "description": "Aplicación para eventos con temporizador y funciones de crear, organizar, visualizar y eliminar.",
       "repository": "https://github.com/rubenmantilladev/event-list-timer",
-      "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "JQuery"
-      ]
+      "tags": ["HTML", "CSS", "JavaScript", "JQuery"]
     },
     {
       "title": "IP geolocalization",
@@ -104,12 +128,7 @@
       "alt_image": "Calculadora Dark Mode",
       "description": "Calculadora con modo oscuro: App para operaciones matemáticas con tema claro y oscuro.",
       "repository": "https://github.com/rubenmantilladev/calculator-dark-ligth-mode",
-      "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "JQuery"
-      ]
+      "tags": ["HTML", "CSS", "JavaScript", "JQuery"]
     },
     {
       "title": "Responsive KFC",
@@ -118,11 +137,7 @@
       "alt_image": "Responsive KFC",
       "description": "Responsive KFC: Página web de la cadena de restaurantes KFC creada con HTML, CSS y JavaScript.",
       "repository": "https://github.com/rubenmantilladev/kfc-main",
-      "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
+      "tags": ["HTML", "CSS", "JavaScript"]
     },
     {
       "title": "Pomodoro",
@@ -131,11 +146,7 @@
       "alt_image": "Pomodoro",
       "description": "Pomodoro App: Permite administrar tiempo de trabajo y descanso, creada con HTML, CSS y JavaScript.",
       "repository": "https://github.com/rubenmantilladev/pomodoro",
-      "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
+      "tags": ["HTML", "CSS", "JavaScript"]
     },
     {
       "title": "3 en raya",
@@ -144,11 +155,7 @@
       "alt_image": "3 en raya",
       "description": "Tres en raya: Juego clásico para dos jugadores, desarrollado con HTML, CSS y JavaScript.",
       "repository": "https://github.com/rubenmantilladev/tic-tac-toe",
-      "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
+      "tags": ["HTML", "CSS", "JavaScript"]
     },
     {
       "title": "Teclado Virtual",
@@ -157,11 +164,7 @@
       "alt_image": "Teclado Virtual",
       "description": "Teclado virtual: App web para escribir sin teclado físico. HTML, CSS y JavaScript.",
       "repository": "https://github.com/rubenmantilladev/teclado-virtual",
-      "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
+      "tags": ["HTML", "CSS", "JavaScript"]
     }
   ]
 }
